@@ -1,0 +1,43 @@
+
+depth_par:
+    key: 'pres'
+    title: 'Tryck [dbar]'
+    data_par: 'PRES_CTD [dbar]'
+    qf_par: 'QV:SMHI:PRES_CTD [dbar]'
+
+pars:
+  -
+    key: 'doxy1'
+    title: 'Syre [ml/l]'
+    data_par: 'DOXY_CTD [ml/l]'
+    qf_par: 'QV:SMHI:DOXY_CTD [ml/l]'
+    color: 'black'
+    xmin: 0
+    xmax: 10
+
+  -
+    key: 'doxy2'
+    title: 'Syre, 2 [ml/l]'
+    data_par: 'DOXY2_CTD [ml/l]'
+    qf_par: 'QV:SMHI:DOXY2_CTD [ml/l]'
+    color: 'green'
+    xmin: 0
+    xmax: 10
+
+  -
+    key: 'temp1'
+    title: 'Temperatur [°C (ITS-90)]'
+    data_par: 'TEMP_CTD [°C (ITS-90)]'
+    qf_par: 'QV:SMHI:TEMP_CTD [°C (ITS-90)]'
+    color: 'blue'
+    xmin: 0
+    xmax: 20
+
+  -
+    key: 'salt1'
+    title: 'Salinitet [psu]'
+    data_par: 'SALT_CTD [psu]'
+    qf_par: 'QV:SMHI:SALT_CTD [psu]'
+    color: 'red'
+    xmin: 0
+    xmax: 10

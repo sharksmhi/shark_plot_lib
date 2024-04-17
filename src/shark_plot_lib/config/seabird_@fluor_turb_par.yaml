@@ -1,0 +1,43 @@
+
+depth_par:
+    key: 'pres'
+    title: 'Tryck [dbar]'
+    data_par: 'PRES_CTD [dbar]'
+    qf_par: 'QV:SMHI:PRES_CTD [dbar]'
+
+pars:
+  -
+    key: 'phyc'
+    title: 'Phycocyanin Fluorescence [mg/m^3]'
+    data_par: 'PHYC_CTD [ppb]'
+    qf_par: 'QV:SMHI:PHYC_CTD [ppb]'
+    color: 'red'
+    xmin: 0
+    xmax: 10
+
+  -
+    key: 'flour'
+    title: 'Fluoroscence [mg/m3]'
+    data_par: 'CHLFLUO_CTD [mg/m3]'
+    qf_par: 'QV:SMHI:CHLFLUO_CTD [mg/m3]'
+    color: 'green'
+    xmin: 0
+    xmax: 10
+
+  -
+    key: 'turb'
+    title: 'Turbiditet [NTU]'
+    data_par: 'TURB_CTD [NTU]'
+    qf_par: 'QV:SMHI:TURB_CTD [NTU]'
+    color: 'purple'
+    xmin: 0
+    xmax: 10
+
+  -
+    key: 'par'
+    title: 'PAR/Irradiance'
+    data_par: 'PAR_CTD [µE/(cm2 sec)]'
+    qf_par: 'QV:SMHI:PAR_CTD [µE/(cm2 sec)]'
+    color: 'pink'
+    xmin: 0
+    xmax: 1000
