@@ -36,8 +36,8 @@ pars:
   -
     key: 'par'
     title: 'PAR/Irradiance'
-    data_par: 'PAR_CTD [µE/(cm2 sec)]'
-    qf_par: 'QV:SMHI:PAR_CTD [µE/(cm2 sec)]'
+    data_par: 'PAR_CTD [µE/(m2 sec)]'
+    qf_par: 'QV:SMHI:PAR_CTD [µE/(m2 sec)]'
     color: 'pink'
     xmin: 0
     xmax: 1000
